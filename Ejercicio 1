@@ -1,0 +1,17 @@
+# Bucle infinito para permitir múltiples intentos
+while True:
+    # Pide al usuario que ingrese un número
+    numero = float(input("Ingrese un número (o '0' para salir): "))
+    
+    # Verifica si el usuario quiere salir del bucle
+    if numero == 0:
+        print("Saliendo del programa.")
+        break
+    
+    # Verifica si el número es positivo o negativo
+    if numero > 0:
+        print("El número es positivo.")
+    elif numero < 0:
+        print("El número es negativo.")
+    else:
+        print("El número es cero. (Este caso debería ser cubierto por la condición de salida.)")
