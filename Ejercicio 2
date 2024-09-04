@@ -1,0 +1,29 @@
+# Pide al usuario que ingrese un número entero
+numero = int(input("Ingrese un número entero entre 1 y 10: "))
+
+# Verifica si el número está en el rango válido
+if 1 <= numero <= 10:
+    # Muestra el número en forma de texto según su valor
+    if numero == 1:
+        print("Uno")
+    elif numero == 2:
+        print("Dos")
+    elif numero == 3:
+        print("Tres")
+    elif numero == 4:
+        print("Cuatro")
+    elif numero == 5:
+        print("Cinco")
+    elif numero == 6:
+        print("Seis")
+    elif numero == 7:
+        print("Siete")
+    elif numero == 8:
+        print("Ocho")
+    elif numero == 9:
+        print("Nueve")
+    elif numero == 10:
+        print("Diez")
+else:
+    # Muestra un mensaje de error si el número no está en el rango válido
+    print("Número fuera de rango. Debe estar entre 1 y 10.")
